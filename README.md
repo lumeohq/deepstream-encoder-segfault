@@ -16,9 +16,12 @@ sudo apt install python3-tabulate
 ```
 
 - image `nvcr.io/nvidia/deepstream:7.1-triton-multiarch`
-- GPU: 3070ti
+- GPU:
+  - 3070ti
+  - 4060ti
 - Drivers affected:
   - 550.120
+  - 560.35.05
   - 570.144
 - Drivers not affected
   - 535.183
