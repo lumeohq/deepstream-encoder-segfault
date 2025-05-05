@@ -2,6 +2,19 @@
 
 This is a minimal reproducible example of the segfault issue with DeepStream.
 
+To run once:
+
+```
+./run.sh
+```
+
+To run test in a loop with different combinations of threads/encoders:
+
+```
+sudo apt install python3-tabulate
+./table.py
+```
+
 - image `nvcr.io/nvidia/deepstream:7.1-triton-multiarch`
 - GPU: 3070ti
 - Drivers affected:
