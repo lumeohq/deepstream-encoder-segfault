@@ -4,7 +4,11 @@ This is a minimal reproducible example of the segfault issue with DeepStream.
 
 - image `nvcr.io/nvidia/deepstream:7.1-triton-multiarch`
 - GPU: 3070ti
-- Driver 550.120
+- Drivers affected:
+  - 550.120
+  - 570.144
+- Drivers not affected
+  - 535.183
 
 The test looks like this:
 - `run.sh` starts the process
